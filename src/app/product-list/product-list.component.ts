@@ -14,8 +14,12 @@ export class ProductListComponent {
     window.alert('The product has been shared!');
   }
 
-  sayHello() {
-    window.alert('Hey you!');
+
+
+  //  DUMB FUNNY TEST METHODS
+  sayHello(name: String) {
+    let phrase: String = this.sayHelloParam(name);
+    window.alert(phrase);
   }
 
   sayHelloParam(name: String): String{
