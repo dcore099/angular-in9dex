@@ -17,6 +17,11 @@ export class ProductListComponent {
   sayHello() {
     window.alert('Hey you!');
   }
+
+  sayHelloParam(name: String): String{
+    return 'Hey you '+name+'!';
+  }
+
 }
 
 /*

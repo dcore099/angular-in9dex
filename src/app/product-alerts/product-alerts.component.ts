@@ -14,6 +14,9 @@ export class ProductAlertsComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  saySum(a: number, b: number): number{
+      return a+b;
+  }
   
 
 }
